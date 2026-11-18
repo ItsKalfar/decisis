@@ -12,3 +12,14 @@ dependencies = [
 [[package]]
 name = "decisis-core"
 version = "0.1.0"
+
+[[package]]
+name = "decisis-mcp"
+version = "0.1.0"
+dependencies = [
+ "decisis-core",
+]
+
+[[package]]
+name = "decisis-replay"
+version = "0.1.0"
