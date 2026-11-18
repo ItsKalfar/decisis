@@ -30,3 +30,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 Licensed under either of [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE),
 at your option.
+
+[![CI](https://github.com/ItsKalfar/decisis/actions/workflows/ci.yml/badge.svg)](https://github.com/ItsKalfar/decisis/actions/workflows/ci.yml)
