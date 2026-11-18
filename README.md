@@ -24,6 +24,11 @@ Read [docs/VISION.md](docs/VISION.md) for the problem and
     cargo test
     cargo run -p decisis
 
+The landing page in `apps/site` uses Node 22 and pnpm:
+
+    pnpm install
+    pnpm site:dev
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License

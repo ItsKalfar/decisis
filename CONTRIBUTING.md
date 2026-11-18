@@ -8,3 +8,7 @@ Before opening a pull request, run:
     cargo fmt --all
     cargo clippy --workspace --all-targets -- -D warnings
     cargo test
+
+If you touched `apps/site`, also run:
+
+    pnpm site:build

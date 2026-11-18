@@ -64,7 +64,7 @@ The pull request check is the last safety net, not the main feature.
 - `decisis-mcp`: thin MCP layer over the core.
 - `decisis-replay`: the validation experiment.
 - `integrations/`: hooks, skills, plugins, GitHub Action. Thin wrappers only.
-- `apps/`: landing page; a dashboard later if needed.
+- `apps/site`: landing page (Next.js scaffold); a dashboard later if needed.
 
 ## Build order
 

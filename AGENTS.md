@@ -25,7 +25,7 @@ Early and experimental. The Rust workspace skeleton exists; the core logic does 
 | `crates/decisis-mcp` | MCP server exposing decisions to agents | Skeleton |
 | `crates/decisis-replay` | Git-history replay experiment, never published | Skeleton |
 | `integrations/` | Agent hooks, skills, plugins, GitHub Action | Planned |
-| `apps/` | Landing page, later a dashboard | Planned |
+| `apps/site` | Landing page (Next.js, pnpm workspace); a dashboard later | Scaffold |
 | `docs/` | Vision, approach, decision records | Active |
 
 ## Commands
@@ -36,6 +36,9 @@ cargo test                                            # run all tests
 cargo run -p decisis                                  # run the CLI
 cargo fmt --all                                       # format
 cargo clippy --workspace --all-targets -- -D warnings # lint, must pass
+pnpm install                                          # web deps (Node 22, pnpm)
+pnpm site:dev                                         # run the landing page
+pnpm site:build                                       # build it, CI runs this
 ```
 
 Run `cargo fmt`, `cargo clippy` and `cargo test` before calling any change done.
