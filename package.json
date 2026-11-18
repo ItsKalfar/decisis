@@ -1,0 +1,9 @@
+{
+  "name": "decisis-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "site:dev": "pnpm --filter site dev",
+    "site:build": "pnpm --filter site build"
+  }
+}
